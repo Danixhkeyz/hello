@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 18px;
+}
+h1, h2{
+    font-family: Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    color: blue;
+    background-color: #fff;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+article{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+article p{
+    margin: 0 0 1em;
+}
+section.post-head small{
+    display: block;
+    margin: 0 0 1em;
+    padding: 0 0 1em;
+    border-bottom: solid #eee;
+}
+footer{
+    text-align: center;
+}

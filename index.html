@@ -3,19 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1 {
-            color: red;
-        }
-    </style>
+    <title>Blog with css</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
 <body>
     <header>
-        <h1>This is my first Commit Good</h1>
+        <h1>MY BLOG</h1>
     </header>
-    <p>Hello!!</p>
-    <h2>Hello!</h2>
-    <p>It's not easy to know git</p>
+    <div id="container">
+        <article>
+            <section class="post-head">
+                <h2>Blog Post Title</h2>
+                <small>Posted on <time datetime="2015-05-15">May 18, 2015</time></small>
+            </section>
+            <section class="post-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facilis porro at, est atque unde tempore id repellendus, ex recusandae dolore inventore delectus sed hic magni facere officia harum numquam!</p>
+            </section>
+            <section class="post-foot">
+                <p>Filled Under general</p>
+                <p>Written by Brad</p>
+            </section>
+            </article>
+            <article>
+                <section class="post-head">
+                    <h2>Blog Post Title</h2>
+                    <small>Posted on <time datetime="2015-05-15">May 18, 2015</time></small>
+                </section>
+                <section class="post-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facilis porro at, est atque unde tempore id repellendus, ex recusandae dolore inventore delectus sed hic magni facere officia harum numquam!</p>
+                </section>
+                <section class="post-foot">
+                    <p>Filled Under general</p>
+                    <p>Written by Brad</p>
+                </section>
+        </article>
+    </div>
+    <footer>
+        <p>&copy; 2015 &bull; Brad Hussey</p>
+    </footer>
 </body>
 </html>
