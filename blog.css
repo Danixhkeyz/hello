@@ -35,6 +35,14 @@ section.post-head small{
     padding: 0 0 1em;
     border-bottom: solid #eee;
 }
+section.post-foot{
+    font-size: 14px;
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+    border-top: solid #eee;
+}
 footer{
     text-align: center;
+    font-size: 14px;
+    color: #aaa;
 }
